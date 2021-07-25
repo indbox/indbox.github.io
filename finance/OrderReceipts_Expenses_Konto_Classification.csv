@@ -1367,3 +1367,6 @@ Datum;Receipt Number;Konto;Beskrivning;Debet;Kredit
 2021-07-18;;5670.0;ST1 V#LLINGBY K0135;648.26;
 2021-07-18;;2641.0;ST1 V#LLINGBY K0135;162.06;
 2021-07-18;;1930.0;ST1 V#LLINGBY K0135;;810.32
+2021-07-20;;6570.0;Pris banktjänster enligt faktura;82.5;
+2021-07-20;;;Pris banktjänster enligt faktura;0.0;
+2021-07-20;;1930.0;Pris banktjänster enligt faktura;;82.5
