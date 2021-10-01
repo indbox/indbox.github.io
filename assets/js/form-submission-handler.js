@@ -508,7 +508,7 @@ function paysel(id) {
     if(date.getDay() !== 2) {
       date.setDate(date.getDate()+1);
     }
-    while(date.getDay() !== 0 || date.getDay() !== 2) {
+    while(date.getDay() !== 0) {
       date.setDate(date.getDate()+1);
     }
     var time = "";
