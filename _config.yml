@@ -8,7 +8,7 @@ email: info@indiskaboxen.se
 landing-title: "Klimatsmart och välsmakande måltider när som helst"
 description: "Indiska Boxen erbjuder portionspackat frysta matlådor som har låg klimatpåverkan och förlängd livslängd. Vi förhindrar matsvinn genom att frysa in nylagad mat. Vi tror på ett proaktivt tillvägagångssätt som fokuserar på att eliminera matsvinn innan de har en chans att dyka upp."
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://www.indiskaboxen.se" # the base hostname & protocol for your site
+url: "https://www.indiskaboxen.se" # the base hostname & protocol for your site
 author:
 name: Indiska Boxen AB
 street_address:
