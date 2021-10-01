@@ -1,0 +1,81 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Section/Article */
+
+	section, article {
+		&.special {
+			text-align: center;
+		}
+	}
+        div.menulist {margin: -2em 0 0 0;}
+        div.menuitem {
+		padding: 2em 0;
+		border-top: 1px solid #e5e5e5; 
+		> p {
+			margin: 0;
+		}	
+	}
+	header {
+		&.major {
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+                        max-width: 100%;
+			margin-bottom: _size(element-margin);
+			> h2 {
+                        	text-transform: uppercase;
+			}
+			> :first-child {
+				  margin-bottom: 0;
+				  width: calc(100% + 0.5em);
+
+				  &:after {
+					    content: '';
+					    background-color: _palette(fg-bold);
+					    display: block;
+					    height: 2px;
+					    margin: 0.325em 0 0.5em 0;
+					    width: 100%;
+				  }
+			}
+
+			> p,ul,ol {
+				font-weight: _font(weight-bold);
+				letter-spacing: _font(letter-spacing-alt);
+				margin-bottom: 0;
+				text-align: left;
+				&.pnl {margin-bottom: 2em;}
+			}
+
+			body.is-ie & {
+				> :first-child {
+					&:after {
+						max-width: 9em;
+					}
+				}
+
+				> h1 {
+					&:after {
+						max-width: 100% !important;
+					}
+				}
+			}
+		}
+
+		@include breakpoint(small) {
+			&.major {
+				width: 100%;
+				text-align: center;
+				> p {
+					br {
+						display: none;
+					}
+				}
+			}
+		}
+	}

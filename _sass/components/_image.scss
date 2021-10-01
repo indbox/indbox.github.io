@@ -1,0 +1,170 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Image */
+
+img {
+    max-width: 100%;
+}
+a.swish-link,a.card-link {
+	border-bottom: none;
+	cursor: pointer;
+	display: block;
+	padding-bottom: 1em;
+	img {
+		width:200px;
+	}
+}
+.image {
+		border: 0;
+		display: inline-block;
+		position: relative;
+
+		img {
+			display: block;
+		}
+
+		&.left,
+		&.right {
+			max-width: 30%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.left {
+			float: left;
+			margin: 0 1.5em 1.25em 0;
+			top: 0.25em;
+		}
+
+		&.right {
+			float: right;
+			margin: 0 0 1.25em 1.5em;
+			top: 0.25em;
+		}
+
+		&.fit {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&.main {
+			display: block;
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+
+			@include breakpoint(small) {
+				margin: (_size(element-margin) * 0.75) 0;
+			}
+		}
+	}
+/* The Modal (background) */
+.modal {
+  h5 { margin: 0;}
+  padding-top:10em;
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #2a2e4f;
+  margin: auto;
+  padding: 1em 2em;
+  border: 1px solid #888;
+  width: 400px;
+  max-width: 80%;
+}
+#orderid,#ordertotal {
+  font-style: italic;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.video-container {margin: 2em auto;}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;}
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.mySlides {display: none;}
+.slideshow-container {
+  background-color: #f2f2f2;
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+} 
+.slideimg {vertical-align: middle;}
+.slidetxt {
+  position: absolute;
+  top: 50px;
+  &.notice {top:30%;}
+  padding: 8px 12px;
+  width: 100%;
+  text-align: center;
+  p {font-size: 1.5em;
+     max-width: 800px;
+     margin: auto;
+     text-align: left;}
+}
+.slidetitle {
+    z-index: 9999;
+    padding: 0.5em 0;
+    backdrop-filter: brightness(0.5);
+    -webkit-backdrop-filter: brightness(0.5);
+    text-transform: uppercase;
+    width: 100%;
+    position: absolute;
+    top:120px;
+    text-align: center;
+    font-size: 5vw;
+    h3 {margin: 0;}
+    .visborder {border-bottom: 1px solid #F2F2F2;}
+}
+/* Fading animation */
+.slidefade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

@@ -1,0 +1,437 @@
+<form id="contact-form" class="contact-form" method="post" data-success="Ditt order har registrerats! Tack för din beställning. Nedan kan du se betalningsinformation om din beställning:">
+  		<input type="hidden" name="_next" value="thanks" />
+			<input id="dispnon" name="_prev" type="text" />
+	                <input type="hidden" name="tinyurl" value="" />
+	                <input type="hidden" name="nsub" value="" />
+	                <div class="sblock">
+			<div class="field">    
+			  <label for="postcode">Postnummer <i class="fas fa-fw fa-star"></i></label>
+  			  <input id="postcode" type="text" name="postcode" placeholder="1####" class="field" maxlength = "6" required />
+			  <label class="collapsible"> Kan vi leverera till dig? Skriv in ditt postnummer och kolla </label>
+			</div>
+	                </div>
+			<div class="cblock">
+			<div class="sblock">
+			<div class="field">
+  			  <label for="email">E-mail <i class="fas fa-fw fa-star"></i></label>
+  			  <input id="email" type="email" name="email" class="field" autocomplete="email" required />
+			</div>
+			<div class="field">
+  			  <label for="phone">Mobil <i class="fas fa-fw fa-star"></i></label>
+  			  <input id="phone" type="tel" name="phone" placeholder="07xxxxxxxx" class="field" autocomplete="tel" required />
+			</div>
+		      	<div class="field">    
+			  <label for="firstname">Förnamn <i class="fas fa-fw fa-star"></i></label>
+  			  <input id="firstname" type="text" name="firstname" class="field" autocomplete="given-name" required />
+                        </div>
+			<div class="field">    
+			  <label for="lastname">Efternamn <i class="fas fa-fw fa-star"></i></label>
+  			  <input id="lastname" type="text" name="lastname" class="field" autocomplete="family-name" required />
+                        </div>
+			<div class="field">    
+			  <label for="address">Gatuadress <i class="fas fa-fw fa-star"></i></label>
+  			  <input id="address" type="text" name="address" class="field" required />
+                        </div> 
+			<div class="field">
+			  <label for="city">Stad <i class="fas fa-fw fa-star"></i></label>
+			  <input id="city" type="text" name="city" class="field" required />
+			</div>
+			<div class="field">    
+			  <label for="postcode_ro">Postnummer </label>
+  			  <input id="postcode_ro" type="number" name="postcode_ro" class="out field" disabled/>
+                        </div>
+			<div class="field">    
+			  <label for="doorcode">Portkod / Leveransinstruktioner</label>
+  			  <input id="doorcode" type="text" name="doorcode" class="field" />
+                        </div>
+			<div class="field">    
+			  <label for="floor">Våning</label>
+  			  <input id="floor" type="text" name="floor" class="field" />
+                        </div>
+			<div class="field">
+  			  <label for="co">C/O</label>
+  			  <input id="co" type="text" name="co" class="field" />
+			</div>
+			</div>
+			<div class="field">
+			  <label for="delivery">Nästa Leveransdatum <i class="fas fa-fw fa-star"></i></label>
+			  <p>På fredag (för söndag leverans) / måndag (för tisdag leverans) morgon, efter ruttplanering, får du ett SMS med en uppskattad leveranstid på +/- 40 minuter</p>
+			  <select type="text" name="delivery" id="delivery">
+			  </select>
+			  <!--<input id="delivery" type="text" name="delivery" class="field" required readonly="readonly"/>-->
+			</div>
+			<h3><i class="msg">Här kan du välja hur många lådor du önskar. Varje låda innehåller 500gm curry utan ris för 2 personer.</i></h3>
+			<h3>
+    			  <i>Prenumeration</i>
+			</h3>
+			<div class="field">
+                          <input type="checkbox" id="subscription" class="subsel" name="subscription">
+			  <label for="subscription">99 kr/låda, 10 lådor med prenumeration leverans varje månad så länge du önskar utan bindningstid.</label>
+			</div>
+			<!--div class="syes">
+			  <div class="field">
+			    <img src="/assets/food/sc.jpg" class="field first half aw">
+			    <div class="field half">
+			    <label class="field" for="Special">Nya Currylådor endast för prenumeranter <i class="fas fa-fw fa-globe-americas"></i>NA kg CO<sub>2</sub>e</label>
+			    <p>Utvalda ifrån indiska boxen. 2 nya rätter i månaden</p>
+			    <div class="field submenu">
+			    <input type="number" name="Nya Currylåda" id="Nya Currylåda" class="quantity special nya" min="0" value=0 disabled>
+			    <span class="dec"><i class="fas fa-minus"></i></span>
+                            <span class="item inc"><i class="fas fa-plus"></i></span>
+			    </div>
+		            <div>
+                              <input type="checkbox" id="vegetarian" name="vegetarian">
+			      <label for="vegetarian">Vegetarian</label>
+			    </div>
+			    <div>
+                              <input type="checkbox" id="vegan" name="vegan">
+			      <label for="vegan">Vegan</label>
+			    </div>
+			    <div>
+                              <label for="allergy">Allergener</label>
+  			      <input id="allergy" type="text" name="allergy" placeholder="Berätta för oss om du har några allergier" class="field" />
+			    </div>
+			    </div>
+			  </div>
+			</div-->
+			<div class="field">
+			  <img src="/assets/food/cm.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Chana Masala">Chana Masala (vegan EKO*) <i class="fas fa-fw fa-globe-americas"></i>0,23 kg CO<sub>2</sub>e</label>
+			  <p>kikärtor med lök, tomat, kryddor och citronsaft</p>
+			  <p><b>Allergener</b> </p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Chana Masala Matlåda" id="Chana Masala Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Chana Masala Currylåda" id="Chana Masala Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+			<div class="field">
+			  <img src="/assets/food/km.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Lentil Kofta Masala">Lentil Kofta Masala (vegan) <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,14 kg CO<sub>2</sub>e</a></label>
+			  <p>linsbullar tillagad i smakrik tomatsås.</p>
+			  <p><b>Allergener</b> </p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Lentil Kofta Masala Matlåda" id="Lentil Kofta Masala Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+                          <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Lentil Kofta Masala Currylåda" id="Lentil Kofta Masala Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+			<div class="field">
+			  <img src="/assets/food/pt.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Paneer Tikka Masala">Paneer Tikka Masala (vegetariskt) <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,55 kg CO<sub>2</sub>e</a></label>
+			  <p>indisk färskost i krämig tikka masala sås</p>
+			  <p><b>Allergener</b> Mjölk, Laktos</p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Paneer Tikka Masala Matlåda" id="Paneer Tikka Masala Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Paneer Tikka Masala Currylåda" id="Paneer Tikka Masala Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+			<div class="field">
+			  <img src="/assets/food/pp.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Palak Paneer">Palak Paneer (vegetariskt) <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,55 kg CO<sub>2</sub>e</a></label>
+			  <p>indisk färskost i krämig spenatsås kryddad med garam masala, vitlök, ingefära och tomat</p>
+			  <p><b>Allergener</b> Mjölk, Laktos</p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Palak Paneer Matlåda" id="Palak Paneer Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Palak Paneer Currylåda" id="Palak Paneer Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+			<div class="field">
+			  <img src="/assets/food/pd.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Palak Dal">Palak Dal (vegan EKO*) <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,1 kg CO<sub>2</sub>e</a></label>
+			  <p>gula linser i krämig spenatsås tillagad med rika indiska kryddor som koriander, vitlök, ingefära och kummin</p>
+			  <p><b>Allergener</b> </p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Palak Dal Matlåda" id="Palak Dal Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Palak Dal Currylåda" id="Palak Dal Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+			<div class="field">
+			  <img src="/assets/food/vk.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Vegetable Korma">Vegetable Korma (vegan) <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,11 kg CO<sub>2</sub>e</a></label>
+			  <p>vegetarisk korma tillagad med grönsaker och välsmakande kryddor i kokosmjölk</p>
+			  <p><b>Allergener</b> Cashewnötter, Mandelmjöl</p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Vegetable Korma Matlåda" id="Vegetable Korma Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Vegetable Korma Currylåda" id="Vegetable Korma Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+			<div class="field">
+		          <img src="/assets/food/ek.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Ennai Kathirikai Kuzhambu">Ennai Kathirikai Kuzhambu (vegan) <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,22 kg CO<sub>2</sub>e</a></label>
+			  <p>Aubergine i kokosås tillagad med rostade kryddor</p>
+			  <p><b>Allergener</b> </p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Ennai Kathirikai Kuzhambu Matlåda" id="Ennai Kathirikai Kuzhambu Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Ennai Kathirikai Kuzhambu Currylåda" id="Ennai Kathirikai Kuzhambu Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+                        <div class="field">
+		          <img src="/assets/food/dm.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Dal Makhani">Dal Makhani (vegan EKO*) <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,12 kg CO<sub>2</sub>e</a></label>
+			  <p>Svarta Urid Linser och kidneybönor blötlagda över natten och sedan tillagade tillsammans med färsk ingefära, tomat och rostade kryddor</p>
+			  <p><b>Allergener</b> </p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Dal Makhani Matlåda" id="Dal Makhani Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Dal Makhani Currylåda" id="Dal Makhani Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+                        <div class="chickmenu">
+                        <div class="field">
+			  <img src="/assets/food/bc.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Butter Chicken">Butter Chicken <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,4 kg CO<sub>2</sub>e</a></label>
+			  <p>kycklingfilé tillagade i smör och smakrik tomatsås</p>
+			  <p><b>Allergener</b> Mjölk, Laktos</p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Butter Chicken Matlåda" id="Butter Chicken Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Butter Chicken Currylåda" id="Butter Chicken Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+			<div class="field">
+			  <img src="/assets/food/MC.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Chicken Madras">Chicken Madras <a target="_blank" href="data"><i class="fas fa-fw fa-globe-americas"></i>0,38 kg CO<sub>2</sub>e</a></label>
+			  <p>kycklingfilé tillagad i smakrik kokoskryddsås med doft av ingefära,spiskummin och koriander</p>
+			  <p><b>Allergener</b></p>
+			  <p>Matlåda ca. 400gm (1 portion med Ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Chicken Madras Matlåda" id="Chicken Madras Matlåda" class="quantity" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div>
+			  <p>Currylåda ca. 500gm för 2 personer (utan ris)</p>
+			  <div class="submenu">
+			  <input type="number" name="Chicken Madras Currylåda" id="Chicken Madras Currylåda" class="quantity special" min="0" value=0 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+			</div>
+                        </div>
+			<h3>
+    			  <i>Val av tillbehör</i>
+			</h3>
+                        <div class="field">
+			  <img src="/assets/food/ch.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Chappatilåda">20st Chapatibröd 89kr</label>
+			  <p>Chapati är traditionella indiska bröd som steks i olja och serveras till maten.</p>
+			  <p><b>Allergener</b> Gluten, Soya</p>
+                          <div class="submenu">
+		          <!--<input type="hidden" name="price" value=89 readonly>-->
+			  <input type="number" name="Chappatilåda" id="Chappatilåda" class="quantity chappati" min="0" value=0 data-price=89 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+                        </div>
+			<div class="field">
+			  <img src="/assets/food/Naan.png" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Naanbröd">Naanbröd 39kr (4-5 st)</label>
+			  <p>Naanbröd är ett indiskt bröd som är fluffigt och riktigt gott att skopa upp mustig indisk gryta med.</p>
+			  <p><b>Allergener</b> Gluten, Mjölk, Laktos</p>
+                          <div class="submenu">
+		          <!--<input type="hidden" name="price" value=89 readonly>-->
+			  <input type="number" name="Naanbröd" id="Naanbröd" class="quantity snacks" min="0" value=0 data-price=39 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+                        </div>
+			<!--div class="field">
+			  <img src="/assets/food/GNaan.png" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Vitlök Naanbröd">Naanbröd med Vitlök 39kr (4-5 st)</label>
+			  <p>Naanbröd är ett indiskt bröd som är fluffigt och riktigt gott att skopa upp mustig indisk gryta med.</p>
+			  <p><b>Allergener</b> Gluten, Mjölk, Laktos</p>
+                          <div class="submenu">
+		          <input type="number" name="Vitlök Naanbröd" id="Vitlök Naanbröd" class="quantity snacks" min="0" value=0 data-price=39 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+                        </div-->
+			<div class="field">
+			  <img src="/assets/food/batter.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Idly Dosa Batter 1kg">Idly Dosa Batter 1kg</label>
+			  <p>Ris, Urid Linser och bockhornsklöverfrön blötlagda och sten mald till en pannkakssmet som sedan får stå framme i rumstemperatur tills den blir fermenterad.<a href="https://www.youtube.com/watch?v=LOYEDTGu5lM" target="_blank">Hur man gör en Dosa</a></p>
+			  <p><b>Allergener</b></p>
+                          <div class="submenu">
+		          <input type="number" name="Idly Dosa Batter 1kg" id="Idly Dosa Batter 1kg" class="quantity snacks" min="0" value=0 data-price=79 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+                        </div>
+<!--
+			<div class="field">
+			  <img src="/assets/food/samosa.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Samosa">5st Samosa (vegan) 49kr</label>
+			  <p>Indiska degknyten fyllda med potatis, koriander, ärtor, grön chili och garam masala. Serveras med tomat ketchup eller mynta chutney.</p>
+		          <p><b>Allergener</b> Gluten, Cashewnötter och Senapsfrö</p>
+			  <div class="submenu">
+			  <input type="number" name="Samosa" id="Samosa" class="quantity snacks" min="0" value=0 data-price=49 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+                        </div>
+			<div class="field">
+			  <img src="/assets/food/papadums.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Papadum">Santa Maria Papadums, 110g 32kr</label>
+			  <p>Papadums är ett hårt indiskt bröd bakat på linsmjöl med mild chilikryddning. Brödet passar som tillbehör till en indisk måltid (palak dal, sambar) eller som snacks innan måltiden med mango chutney.</p>
+			  <div class="submenu">
+			  <input type="number" name="Papadum" id="Papadum" class="quantity snacks" min="0" value=0 data-price=32 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+                        </div>
+			<div class="field">
+			  <img src="/assets/food/mangochutney.jpg" class="field first half aw">
+			  <div class="field half">
+			  <label class="field" for="Mango Chutney">Santa Maria Mango Chutney, 350g 30kr</label>
+			  <p>Mango Chutney passar utmärkt till att använda som dipp till lite nystekt Pappadum, men även till annan mat såsom grytor och såser.</p>
+			  <div class="submenu">
+			  <input type="number" name="Mango Chutney" id="Mango Chutney" class="quantity snacks" min="0" value=0 data-price=30 disabled>
+			  <span class="dec"><i class="fas fa-minus"></i></span>
+                          <span class="item inc"><i class="fas fa-plus"></i></span>
+			  </div></div>
+                        </div>
+-->
+			<!--div class="spblock">
+			<h3>
+    			  <i>Prenumeration</i>
+			</h3>
+			<div class="field">
+                          <input type="checkbox" id="subscription" name="subscription">
+			  <label for="subscription">Matlådorna leverans varje månad så länge du önskar utan bindningstid</label>
+			</div>
+			</div-->
+			<div class="field">
+                          <label for="discount">Rabatter</label>
+  			  <input id="discount" type="text" name="discount" placeholder="Ange en giltig rabattkod" class="field" maxlength = "5" />
+			</div>
+			<h3 id="hsummary">
+    			  <i>Order Summary</i>
+			</h3>
+			<table id="summary">
+			</table>
+			<label class="minorderdeliv"><i class="fa fa-fw fa-info"></i> Leveransavgift 59kr. Beställ minst 5 lådor för fri hemleverans.</label>
+			<div class="field" hidden>    
+			  <label for="productsel">Antal</label>
+  			  <input id="productsel" type="number" name="productsel" class="out field" value=0 disabled/>
+                        </div>
+			<div class="field">    
+			  <label for="total">Totalsumma (Inkl Moms i SEK)</label>
+  			  <input id="total" type="number" name="total" class="out field" value=0 disabled/>
+                        </div>
+			<div class="sblock">
+			<div class="field">
+			  <input type="checkbox" required id="terms" name="terms">
+			  <label for="terms">Jag samtycker till att Indiska Boxen behandlar mina personuppgifter, såsom mina kontaktuppgifter, betal och orderinformation bl.a. för att kunna hantera min beställning.</label>
+			</div>
+			</div>
+			<label class="minorder"><i class="fa fa-fw fa-exclamation"></i> Beställ minst 1 lådor</label>
+			<a href="#hsummary" class="icon cart fa-stack fa-2x has-badge" data-count="">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+			</a>
+			<button id="orderbtn" type="submit" disabled>Betala</button>
+			</div>
+</form>
+<div id="paydiv">
+			<h4>Beställningsnummer: <span class="orderid"></span><br>Summa att betala: <span class="ordertotal"></span> kr</h4>
+			<h4>Betala med Swish</h4>
+			<a class="link swish-link">
+				<img src="{{ site.baseurl }}/assets/images/Swish.png" alt-src="Betala med Swish">
+			</a>
+	                <h4>Betalkort</h4>
+			<a class="link card-link" id="stripe-uri" href="">
+				<img src="{{ site.baseurl }}/assets/images/Stripe.png" alt-src="Betalkort">
+			</a>
+	  	        <a id="swish-uri"></a>
+      <div id="swish-qr" class="modal" onclick="this.style.display='none'">
+    	    <div class="modal-content">
+					    <h5>Scan the QR code using the Swish app to start payment or manually enter Swish number 123 478 05 32</h5>
+		                            <h5>Amount: <span class="ordertotal"></span> kr<br>Message: <span class="orderid"></span></h5>					    
+      				<img src="{{ site.baseurl }}/assets/images/indiskaboxenswish.png" >
+				  </div>
+  		</div>
+ </div>

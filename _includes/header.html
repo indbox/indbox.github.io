@@ -1,0 +1,16 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header" {% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}" class="logo"><strong>{{ site.title }}</strong><!-- <span>{{ site.title | split: ' ' | last}}</span>--> <span>{{ site.subtitle }}</span> </a>
+	<nav>
+		<a href="/#order">beställ</a>
+		<a href="/menu">vår meny</a>
+		<a href="/#one">hur det fungerar</a>
+		<!--<a href="/#three">våra erbjudanden</a>-->
+		<a href="/aboutus">about us</a>
+		<a href="/faq">frågor & svar</a>
+		<a href="" id="menubar"><i class="fa fa-fw fa-bars"></i></a>
+	</nav>
+</header>

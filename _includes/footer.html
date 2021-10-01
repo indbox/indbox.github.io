@@ -1,0 +1,146 @@
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<section class="split">
+			  <section>
+				<div class="contact-method">
+					<span class="icon alt fas fa-question"></span>
+					<h3>Kundtjänst</h3>
+					<span>Kundtjänst öppet vardagar mellan 10:00 - 16:00 via <a href="mailto:info@indiskaboxen.se">E-post</a>.</span>
+				</div>
+			  </section>
+			  <section>
+				<div class="contact-method">
+					<span class="icon alt fas fa-envelope"></span>
+					<h3>E-post</h3>
+					<a href="mailto:info@indiskaboxen.se">{{ site.email }}</a>
+				</div>
+			  </section>
+			  <!--<section>
+				<div class="contact-method">
+					<span class="icon alt fas fa-phone"></span>
+					<h3>Telefon</h3>
+					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+				</div>
+			  </section>-->
+			  <section>
+				<div class="contact-method">
+					<span class="icon alt fas fa-home"></span>
+					<h3>Adress</h3>
+					<span>
+					{% if site.name %}
+					    {{ site.name }}<br />
+					{% endif %}
+					{% if site.street_address %}
+					    {{ site.street_address }}<br />
+					{% endif %}
+					{% if site.zip_code %}
+					    {{ site.zip_code }} 
+					{% endif %}
+					{% if site.city %}
+					    {{ site.city }}<br />
+					{% endif %}
+					{% if site.state %}
+					    {{ site.state }} 
+					{% endif %}
+					{% if site.country %}
+					    {{ site.country }}
+					{% endif %}
+					Org.nr: 559278-9233
+					</span>
+				</div>
+			  </section>
+			</section>
+			<ul class="icons">
+				{% if site.twitter_url %}
+				<li><a href="{{ site.twitter_url }}" class="icon alt fab fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+				{% endif %}
+				{% if site.googleplus_url %}
+				<li><a href="{{ site.googleplus_url }}" class="icon alt fab fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
+				{% endif %}
+				{% if site.facebook_url %}
+				<li><a href="{{ site.facebook_url }}" class="icon alt fab fa-3x fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+				{% endif %}
+				{% if site.instagram_url %}
+				<li><a href="{{ site.instagram_url }}" class="icon alt fab fa-3x fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% endif %}
+				{% if site.pinterest_url %}
+				<li><a href="{{ site.pinterest_url }}" class="icon alt fab fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+				{% endif %}
+				{% if site.500px_url %}
+				<li><a href="{{ site.500px_url }}" class="icon alt fab fa-500px" target="_blank"><span class="label">500px</span></a></li>
+				{% endif %}
+				{% if site.gitlab_url %}
+				<li><a href="{{ site.gitlab_url }}" class="icon alt fab fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+				{% endif %}
+				{% if site.github_url %}
+				<li><a href="{{ site.github_url }}" class="icon alt fab fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				{% endif %}
+				{% if site.slack_url %}
+				<li><a href="{{ site.slack_url }}" class="icon alt fab fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+				{% endif %}
+				{% if site.linkedin_url %}
+				<li><a href="{{ site.linkedin_url }}" class="icon alt fab fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+			</ul>
+			<section class="instagram-feed">
+		  		<!--<div class="instagram-widget"
+     				data-username="indiskaboxen"
+     				data-header="yes"
+     				data-width="100%"
+     				data-color="">
+            	 		</div>-->
+				<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+	        	</section>
+			<ul class="copyright">
+				<li><!--a href="https://www.stripe.com/"--><img src="/assets/images/PoweredbyStripe.png"></a></li>
+		                <!--li><a href="https://www.swish.nu/"><img src="/assets/images/Swish.png"></a></li-->
+			</ul>
+			<ul class="copyright">
+				<li>&copy; {{ site.title }}</li>
+			</ul>
+		</div>
+		<!-- Load Facebook SDK for JavaScript -->
+      <!--<div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+-->
+      <!-- Your Chat Plugin code -->
+<!--      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="108149104330046"
+  theme_color="#2A2F4A">
+      </div> -->
+	</footer>
+
+<!-- Scripts -->
+        <script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+        <script src="{{ "assets/js/jquery-ui.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+        <!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+        <script data-cfasync="false" type="text/javascript" src="{{ "assets/js/form-submission-handler.js" | absolute_url }}"></script>
+        <script type="text/javascript">
+        /* curator-feed-default-feed-layout */
+        (function(){
+        var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+        i.src = "https://cdn.curator.io/published/c2144663-8863-4fcd-b852-c35420a8128b.js";
+        e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+        })();
+        </script>

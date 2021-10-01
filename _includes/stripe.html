@@ -1,0 +1,19 @@
+<script>
+  var myFrame = document.getElementById('gFrame');
+  var loc = window.location.search;//Get the search string of the domain
+  window.history.replaceState(null, null, window.location.pathname);
+  var params = loc.slice(1).replaceAll("&",'","').replaceAll("=",'":"');
+  if (!params) {
+    myFrame.parentNode.removeChild(myFrame);
+  } else {
+    params = '{"' + params + '"}';
+    params = JSON.parse(params);
+    var Name = params.name.toString();
+    var Email = params.email.toString();
+    var Amount = params.amount.toString();
+    var Order = params.order.toString();
+    var frameSrc = myFrame.src.toString();
+    var newSrc = frameSrc + "?name=" + Name + "&email=" + Email + "&amount=" + Amount + "&order=" + Order;
+    myFrame.src = newSrc;//Set the new src and the iframe will refresh
+  }
+</script>
