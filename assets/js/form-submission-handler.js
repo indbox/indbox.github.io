@@ -508,7 +508,7 @@ function paysel(id) {
     if(date.getDay() !== 2) {
       date.setDate(date.getDate()+1);
     }
-    while(date.getDay() !== 0) {
+    while(date.getDay() !== 0 && date.getDay() !== 2) {
       date.setDate(date.getDate()+1);
     }
     var time = "";
@@ -523,9 +523,14 @@ function paysel(id) {
       //if(day>24) {
       //  date.setDate(day+7);
       //}
-      time = date.toDateString()+' KL 12-21';
+      if(date.getDay() === 0) {
+        time = date.toDateString()+' KL 12-21';
+        date.setDate(date.getDate()+2);
+      } else {
+        time = date.toDateString()+' KL 17-22';
+        date.setDate(date.getDate()+5);
+      }
       $('#delivery').append($('<option>', {value: time,text: time}));
-      date.setDate(date.getDate()+7);
     }
   }
   document.addEventListener("DOMContentLoaded", get_delivery_date, false);
