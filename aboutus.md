@@ -24,10 +24,10 @@ order: 9
     </header>
   <p>From Stockholm who love food:</p>
   <ul style="list-style-type:none;">
-    <li><a href="https://www.linkedin.com/in/dilipvajravelu/" target="_blank" class="icon"><img src="/assets/images/person1.jpeg" style="height: 200px;"></a><br><b>Dilip Vajravelu</b><br>Founder</li>
-    <li><a href="https://www.linkedin.com/in/sujathadilip/" target="_blank" class="icon"><img src="/assets/images/person2.jpeg" style="height: 200px;"></a><br><b>Sujatha Dilip</b><br>Founder</li>
-    <li><a href="mailto:karolina@indiskaboxen.se" target="_blank" class="icon"><img src="/assets/images/person3.jpeg" style="height: 200px;"></a><br><b>Karolina Dejemyr</b><br>Customer Relation</li>
-    <!--li><img src="/assets/images/person4.jpeg" style="height: 200px;"><br><b>Manokararasa Rajagopal</b><br>Board Member</li-->
+    <li><a href="mailto:info@indiskaboxen.se" target="_blank" class="icon"><img src="/assets/images/person1.jpeg" style="height: 200px;"></a><br><b>Dilip</b><br>Founder</li>
+    <li><a href="mailto:sujatha@indiskaboxen.se" target="_blank" class="icon"><img src="/assets/images/person2.jpeg" style="height: 200px;"></a><br><b>Sujatha</b><br>Founder</li>
+    <li><a href="mailto:karolina@indiskaboxen.se" target="_blank" class="icon"><img src="/assets/images/person3.jpeg" style="height: 200px;"></a><br><b>Karolina</b><br>Customer Relation</li>
+    <!--li><img src="/assets/images/person4.jpeg" style="height: 200px;"><br><b>Mano</b><br>Board Member</li-->
   </ul>
 	  <p>We started Indiska Boxen to bring climate-smart Indian food to swedish homes and at same time convey how nutritious and tasty it can be to eat climate-smart. Indian food is nutritious, flavourful, healthy, but also good for the climate. We select our dishes carefully, all our dishes are made in eco-friendly one-pot and wholesome food. Our food comes in recyclable eco-friendly bambu boxes.</p>
   
