@@ -34,7 +34,7 @@
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
-
+                        margin-bottom: -30px;
 			strong {
 				@include vendor('transition', (
 					'background-color #{_duration(transition)} ease-in-out',
