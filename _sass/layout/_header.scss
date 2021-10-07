@@ -154,8 +154,11 @@
 			/*height: 2.75em;*/
 			padding: 0.5em 0;
 			line-height: 2.75em;
-
+                        display: block;
 			.logo {
+				position: absolute;
+                                left: 50%;
+                                margin-left: -100px;
 				padding: 0 1em;
 			}
 
