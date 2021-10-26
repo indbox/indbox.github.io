@@ -314,7 +314,7 @@ function paysel(id) {
     $("#productsel").val(box);
     var faf = false;
     if ($("#discount").val().toLowerCase() === 'faf25' || $("#subscription").prop('checked')) {
-      total += 59*sum;
+      total += 69*sum;
       total += 99*curry;
       faf = true;
     } else if (box>9) {
