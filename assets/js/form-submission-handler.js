@@ -219,7 +219,7 @@ function paysel(id) {
     $(".subsel").each(function(){
       if ($(this).val()=='on') {
         subs = true;
-        lines += '<tr><td style="width:40%">Currylådor (Prenumeration)</td>';
+        lines += '<tr><td style="width:40%">Prenumeration</td>';
         lines += '<td></td>';
         lines += '<td></td>';
         lines += '<td></td></tr>';
