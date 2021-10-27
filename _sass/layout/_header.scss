@@ -19,7 +19,7 @@
 		/*height: 3.25em;*/
 		left: 0;
 		letter-spacing: _font(letter-spacing-alt);
-		line-height: 3.25em;
+		line-height: 3.5em;
 		margin: 0;
 		position: fixed;
 		text-transform: uppercase;
@@ -31,11 +31,10 @@
 			border: 0;
 			display: inline-block;
 			font-size: 1.1em;
-			height: inherit;
+			height: 3.4em;
 			line-height: inherit;
 			padding: 0 1.5em;
-                        margin-bottom: -30px;
-			strong {
+                        strong {
 				@include vendor('transition', (
 					'background-color #{_duration(transition)} ease-in-out',
 					'color #{_duration(transition)} ease-in-out'
@@ -153,7 +152,7 @@
 		@include breakpoint(small) {
 			/*height: 2.75em;*/
 			padding: 0.5em 0;
-			line-height: 2.75em;
+			line-height: 5.5em;
                         display: block;
 			.logo {
 				position: absolute;
