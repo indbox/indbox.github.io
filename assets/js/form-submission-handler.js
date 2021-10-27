@@ -216,15 +216,13 @@ function paysel(id) {
     //    dis = 5;
     //  }
     //}
-    $(".subsel").each(function(){
-      if ($(this).val()=='on') {
-        subs = true;
-        lines += '<tr><td style="width:40%">Prenumeration</td>';
-        lines += '<td></td>';
-        lines += '<td></td>';
-        lines += '<td></td></tr>';
-      }
-    });
+    if ($("#subscription").prop('checked')) {
+      subs = true;
+      lines += '<tr><td style="width:40%">Prenumeration</td>';
+      lines += '<td></td>';
+      lines += '<td></td>';
+      lines += '<td></td></tr>';
+    };
     $(".quantity").not(".special,.chappati,.snacks").each(function(){
       if ($(this).val()>0) {
         lines += '<tr><td style="width:40%">'+$(this).attr("name")+'</td>';
