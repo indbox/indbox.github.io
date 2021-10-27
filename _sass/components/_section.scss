@@ -70,7 +70,6 @@
 		@include breakpoint(small) {
 			&.major {
 				width: 100%;
-				text-align: center;
 				> p {
 					br {
 						display: none;
