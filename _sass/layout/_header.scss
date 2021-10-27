@@ -19,7 +19,7 @@
 		/*height: 3.25em;*/
 		left: 0;
 		letter-spacing: _font(letter-spacing-alt);
-		line-height: 3.5em;
+		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
 		text-transform: uppercase;
@@ -156,9 +156,10 @@
                         display: block;
 			.logo {
 				position: absolute;
-                                left: 50%;
-                                margin-left: -100px;
-				padding: 0 1em;
+                                padding: 0 1em;
+				img {
+					height: 45px;
+				}
 			}
 
 			nav {
