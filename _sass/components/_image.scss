@@ -127,6 +127,11 @@ a.swish-link,a.card-link {
   margin: 0 auto;
   overflow: hidden;
 } 
+@include breakpoint(small) {
+  .slideshow-container {
+    width: 100%;
+  }
+}
 .slideimg {vertical-align: middle;}
 .slidetxt {
   position: absolute;
