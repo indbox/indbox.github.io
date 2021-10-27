@@ -95,10 +95,10 @@ God och smakrik indisk mat som frysts efter tillagningen i lagom stora...</p>Pos
 			<p><i class="fas fa-fw fa-globe-americas"></i>Maten packas i miljövänliga förpackningar.</p>
 			<p><i class="fas fa-fw fa-globe-americas"></i>Leveranserna är planerade, ruttoptimerade samt samlade till en och samma dag med flera måltider per kund.</p>
 			<a href="menu" class="button next"><i class="fa fa-fw fa-utensils"></i> se vår meny</a>
-			<div class="video-container">
+			<!--div class="video-container">
 			<div class="embed-container">
 			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-xUDTp8lTO4?start=3&end=64;rel=0&amp;modestbranding=1" frameborder='0' allowfullscreen></iframe>
-			</div></div>
+			</div></div-->
 		</header>
 		<header class="major">
       			<h2>Full av smakar och nyttigheter</h2>
