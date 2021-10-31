@@ -47,12 +47,13 @@
     if (urlParams.has('e')) {
       var eaddr = urlParams.get('e');
       $("input[name='email']").val(eaddr);
-      if (eaddr ==="axelsarlin@gmail.com") {
-        $("#subscription").prop("checked", true);
-        $("#contact-form .spblock").hide();
-        $("input[name='nsub']").val("no");
+      var unlist = ["axelsarlin@gmail.com","torbjorn.hag@gmail.com"];
+      if(jQuery.inArray(eaddr, unlist) !== -1) {
+        unlist = [];
+        window.location.replace("https://www.indiskaboxen.se/#order");        
       }
     } else {
+      unlist = [];
       window.location.replace("https://www.indiskaboxen.se/#order");
     }
     //if (urlParams.has('p')) {
