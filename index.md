@@ -17,10 +17,10 @@ lang: se
             </header>
             <div class="content">
                 <ul class="actions">
-			<li><a href="#order" class="button scrolly">Från 69 kr/matlåda (med ris 400g)<br/><span>Från 119 kr/currylåda (utan ris 500g)</span></a></li>
+			<li><a href="#order" class="button scrolly">Från 69 kr/matlåda (med ris 400g)<br/><span>Från 99 kr/currylåda (utan ris 500g)</span></a></li>
 		</ul>
             </div>
-	    <p style="text-transform: uppercase;"> <i class="fa fa-fw fa-info"></i> Fryst matlåda. Varje currylåda innehåller 500 gm curry för 2 personer. Varje matlåda innehåller 400 gm curry med ris (1 portion).<br/><i class="fa fa-fw fa-biking"></i> fri hemleverans varje Söndag och Tisdag i Stockholm (För beställningar under 5 lådor tillkommer en leveransavgift på 59 kr).<br/><i class="fa fa-fw fa-tags"></i> 99 kr/currylåda med prenumeration. 10 lådor varje månad. </p>
+	    <p style="text-transform: uppercase;"> <i class="fa fa-fw fa-info"></i> Fryst matlåda och currylåda. Varje currylåda innehåller 400-500 gm curry för 2 personer. Varje matlåda innehåller 400 gm curry med ris (1 portion).<br/><i class="fa fa-fw fa-tags"></i> 79 kr/Matlåda 119 kr/Currylåda. 69 kr/Matlåda 99 kr/Currylåda med prenumeration av 10 lådor.<br/><i class="fa fa-fw fa-biking"></i> fri hemleverans i Stockholm (För beställningar under 5 lådor tillkommer en leveransavgift på 59 kr). Leverans sker söndag (kl 12-21) och tisdag (kl 17-22). På fredag (för söndag leverans) / måndag (för tisdag leverans) morgon, efter ruttplanering, får du ett SMS med en uppskattad leveranstid på +/- 40 minuter.</p>
         </div>
     </section>
     
@@ -113,7 +113,7 @@ lang: se
 	<i class="icon alt fas fa-shopping-cart" ></i>     
 	<header class="major">
           <h2>1. beställning</h2>
-      	  <p>Du väljer vilka rätter du vill beställa och hur många portioner som önskas per månad. Skicka din beställning för att starta din prenumeration.</p>
+      	  <p>Du väljer vilka rätter du vill beställa och hur många portioner som önskas per månad. Skicka din beställning för att starta din prenumeration. Du kan också välja engångsbeställning.</p>
     	</header>
      </section>
      <section>
