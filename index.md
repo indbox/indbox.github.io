@@ -20,7 +20,7 @@ lang: se
 			<li><a href="#order" class="button scrolly">Från 69 kr/matlåda (med ris 400g)<br/><span>Från 119 kr/currylåda (utan ris 500g)</span></a></li>
 		</ul>
             </div>
-	    <p style="text-transform: uppercase;"> <i class="fa fa-fw fa-info"></i> Varje currylåda innehåller 500 gm curry för 2 personer. Varje matlåda innehåller 400 gm curry med ris (1 portion).<br/><i class="fa fa-fw fa-biking"></i> fri hemleverans varje Söndag och Tisdag i Stockholm (För beställningar under 5 lådor tillkommer en leveransavgift på 59 kr).<br/><i class="fa fa-fw fa-tags"></i> 99 kr/currylåda med prenumeration. 10 lådor varje månad. </p>
+	    <p style="text-transform: uppercase;"> <i class="fa fa-fw fa-info"></i> Fryst matlåda. Varje currylåda innehåller 500 gm curry för 2 personer. Varje matlåda innehåller 400 gm curry med ris (1 portion).<br/><i class="fa fa-fw fa-biking"></i> fri hemleverans varje Söndag och Tisdag i Stockholm (För beställningar under 5 lådor tillkommer en leveransavgift på 59 kr).<br/><i class="fa fa-fw fa-tags"></i> 99 kr/currylåda med prenumeration. 10 lådor varje månad. </p>
         </div>
     </section>
     
