@@ -139,10 +139,10 @@ lang: se
 		<header class="major">
       <h2>Våra erbjudanden</h2>
 		  <ul>
-		    <li> 129 kr/currylåda (119 kr med 10 lådor).</li>
-		    <li> 79 kr/matlåda (69 kr med 10 lådor).</li>
-		    <li> 99 kr/currylåda med prenumeration av 10 lådor varje månad.</li>
-		    <li> Fri hemleverans varje Söndag och Tisdag i Stockholm (För beställningar under 5 lådor tillkommer en leveransavgift på 59 kr).</li>
+		    <li> Engångsbeställning: 79 kr/matlåda och 119 kr/currylåda.</li>
+		    <li> Prenumeration: 69 kr/matlåda och 99 kr/currylåda med prenumeration av 10 lådor.</li>
+		    <li> Fri hemleverans (För beställningar under 5 lådor tillkommer en leveransavgift på 59 kr).</li>
+		    <li> Leverans sker söndag (kl 12-21) och tisdag (kl 17-22). På fredag (för söndag leverans) / måndag (för tisdag leverans) morgon, efter ruttplanering, får du ett SMS med en uppskattad leveranstid på +/- 40 minuter.</li>
 	          </ul>
 		</header>
 	</div>
