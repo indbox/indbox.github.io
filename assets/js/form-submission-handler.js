@@ -201,15 +201,11 @@ function paysel(id) {
     var dis = 0;
     var subs = false;
     var mprice = "79 kr";
-    var cprice = "129 kr";
+    var cprice = "119 kr";
     if (faf == true) {
       dis = 10;
       mprice = "<s>79 kr</s> 69 kr";
       cprice = "<s>129 kr</s> 99 kr";
-    } else if(box >9) {
-      dis = 10;
-      mprice = "<s>79 kr</s> 69 kr";
-      cprice = "<s>129 kr</s> 119 kr";
     }
     //if ($("#subscription").prop('checked')) {
     //  if (box<10) {
@@ -237,9 +233,9 @@ function paysel(id) {
         lines += '<td>'+cprice+'</td>';
         lines += '<td>'+$(this).val()+' st</td>';
         if (faf == true) {
-          lines += '<td>'+($(this).val()*129-($(this).val()*30))+' kr</td></tr>';
+          lines += '<td>'+($(this).val()*119-($(this).val()*20))+' kr</td></tr>';
         } else {
-          lines += '<td>'+($(this).val()*129-($(this).val()*dis))+' kr</td></tr>';
+          lines += '<td>'+($(this).val()*119-($(this).val()*dis))+' kr</td></tr>';
         }
       }
     });
@@ -315,12 +311,9 @@ function paysel(id) {
       total += 69*sum;
       total += 99*curry;
       faf = true;
-    } else if (box>9) {
-      total += 69*sum;
-      total += 119*curry;
     } else {
       total += 79*sum;
-      total += 129*curry;
+      total += 119*curry;
     }
     $("#total").val(total);
     $('.ordertotal').text(total);
