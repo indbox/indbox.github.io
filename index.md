@@ -33,6 +33,10 @@ lang: se
 			<a href="https://www.saveonethird.org/in-restaurants">fight food waste<br>save 1/3</a>
 		</div>
 	</div>-->
+	
+	<div class="mySlides slidefade">
+		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D119748140484712%26id%3D100073485805402&show_text=true&width=500" width="500" height="263" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+	</div>
 	<div class="mySlides slidefade">
 		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fanna.martensson.102%2Fposts%2F3869373669779055&show_text=true&width=500" width="500" height="244" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 	</div>
