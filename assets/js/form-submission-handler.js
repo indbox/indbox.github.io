@@ -503,7 +503,7 @@ function paysel(id) {
       date.setDate(date.getDate()+1);
     }
     var time = "";
-    for(var i=0; i < 4; i++){
+    for(var i=0; i < 8; i++){
       var day = date.getDate();
       //if((day<=7) || (day>14 && day<=21)) {
       //if(day>14 && day<=21) {
@@ -520,8 +520,9 @@ function paysel(id) {
       } else {
         time = date.toDateString()+' KL 17-22';
         date.setDate(date.getDate()+5);
+        $('#delivery').append($('<option>', {value: time,text: time}));
       }
-      $('#delivery').append($('<option>', {value: time,text: time}));
+     
     }
   }
   document.addEventListener("DOMContentLoaded", get_delivery_date, false);
