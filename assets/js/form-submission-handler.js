@@ -457,7 +457,7 @@ function paysel(id) {
   function addcollapse() {
     // bind to the submit event of our form
     var colls = $("#postcode");
-    var plist= ['10001-12999', '13100-13199', '14100-14199', '16000-17799', '18100-18399', '18700-18799', '19100-19299', '19400-19499'];
+    var plist= ['10001-12999', '13100-13199', '14100-14199', '16000-17899', '18100-18399', '18700-18799', '19100-19299', '19400-19499'];
     var plists=[];
     for(var i=0;i<plist.length;i++) plists[i]=getRange(plist[i]);
     for (var i = 0; i < colls.length; i++) {
