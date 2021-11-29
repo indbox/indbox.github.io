@@ -515,9 +515,11 @@ function paysel(id) {
       //  date.setDate(day+7);
       //}
       if(date.getDay() === 0) {
-        time = date.toDateString()+' KL 17-21';
+        if(day<=7) {
+          time = date.toDateString()+' KL 17-21';
+          $('#delivery').append($('<option>', {value: time,text: time}));
+        }
         date.setDate(date.getDate()+2);
-        $('#delivery').append($('<option>', {value: time,text: time}));
       } else {
         time = date.toDateString()+' KL 17-22';
         date.setDate(date.getDate()+5);
