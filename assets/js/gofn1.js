@@ -72,7 +72,7 @@
       $("input[name='Butter Chicken Matlåda']").val(urlParams.get('bc'));
     }
     if (urlParams.has('mc')) {
-      $("input[name='Chicken Madras Matlåda']").val(urlParams.get('pc'));
+      $("input[name='Chicken Madras Matlåda']").val(urlParams.get('mc'));
     }
     if (urlParams.has('pt')) {
       $("input[name='Paneer Tikka Masala Matlåda']").val(urlParams.get('pt'));
@@ -102,10 +102,10 @@
       $("input[name='Butter Chicken Currylåda']").val(urlParams.get('bcc'));
     }
     if (urlParams.has('mcc')) {
-      $("input[name='Chicken Madras Currylåda']").val(urlParams.get('pcc'));
+      $("input[name='Chicken Madras Currylåda']").val(urlParams.get('mcc'));
     }
     if (urlParams.has('ptc')) {
-      $("input[name='Paneer Tikka Masala Matlåda']").val(urlParams.get('ptc'));
+      $("input[name='Paneer Tikka Masala Currylåda']").val(urlParams.get('ptc'));
     }
     if (urlParams.has('ppc')) {
       $("input[name='Palak Paneer Currylåda']").val(urlParams.get('ppc'));
