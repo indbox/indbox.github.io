@@ -521,9 +521,12 @@ function paysel(id) {
         }
         date.setDate(date.getDate()+2);
       } else {
-        time = date.toDateString()+' KL 17-22';
+        if(day<=7) {
+          time = date.toDateString()+' KL 17-22';
+          $('#delivery').append($('<option>', {value: time,text: time}));
+        }
         date.setDate(date.getDate()+5);
-        $('#delivery').append($('<option>', {value: time,text: time}));
+        
       }
      
     }
